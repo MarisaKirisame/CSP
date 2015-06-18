@@ -10,7 +10,8 @@ qtcAddDeployment()
 
 HEADERS += \
     CSP.hpp \
-    test.hpp
+    test.hpp \
+    constraint.hpp
 
 PRECOMPILED_HEADER = $$HEADERS
 QMAKE_CXXFLAGS += -std=c++1z
